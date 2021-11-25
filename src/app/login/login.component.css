@@ -69,7 +69,7 @@ img {
     margin: 10px 0px;
 }
 
-.textfield > input {
+.textfield > input{
     width: 100%;
     border: none;
     border-radius: 10px;
@@ -80,16 +80,24 @@ img {
     box-shadow: 0px 12px 40px #00000056;
     outline: none;
     box-sizing: border-box;
+  
 }
+
+.textfield > input:focus{
+    background-color: #fff;
+
+}
+
+.textfield > input:focus::placeholder{
+    color: black;
+}
+
 
 .textfield > label{
-    color: #f0ffffde;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
-.textfield > input::placeholder{
-    color: #f0ffff94;
-}
+
 
 .btn-login{
     width: 100%;
