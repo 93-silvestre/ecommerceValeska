@@ -1,0 +1,57 @@
+.menu {
+    border-bottom: 1px solid #e4e1e1;
+}
+
+.title {
+    display: inline-block;
+    color: #000000;
+    font-weight: 750;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-item {
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.nav-item:active {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.card-img-top {
+    height: 300px;
+}
+
+.card-title {
+    font-weight: 400;
+}
+
+.card-title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.card-text {
+    font-weight: 650;
+}
+
+.discount {
+    color: #999999;
+
+    font-weight: 300;
+    text-decoration: line-through;
+}
+
+.installment {
+    color: #999999;
+    font-weight: 400;
+}
