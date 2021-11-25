@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { LoginComponent } from './login/login.component';
 import { PainelComponent } from './painel/painel.component';
+import { GerenciadorDeEstoqueComponent } from './gerenciador-de-estoque/gerenciador-de-estoque.component';
+import { VerEstoqueComponent } from './ver-estoque/ver-estoque.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CadastroComponent,
     LoginComponent,
-    PainelComponent
+    PainelComponent,
+    GerenciadorDeEstoqueComponent,
+    VerEstoqueComponent
   ],
   imports: [
     BrowserModule,
