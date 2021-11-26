@@ -8,6 +8,9 @@ import { LoginComponent } from './login/login.component';
 import { PainelComponent } from './painel/painel.component';
 import { GerenciadorDeEstoqueComponent } from './gerenciador-de-estoque/gerenciador-de-estoque.component';
 import { VerEstoqueComponent } from './ver-estoque/ver-estoque.component';
+import { EstoqueComponent } from './estoque/estoque.component';
+import { GerenciadorDeEstoqueComponent } from './gerenciador-de-estoque/gerenciador-de-estoque.component';
+
 
 @NgModule({
   declarations: [
@@ -17,6 +20,9 @@ import { VerEstoqueComponent } from './ver-estoque/ver-estoque.component';
     PainelComponent,
     GerenciadorDeEstoqueComponent,
     VerEstoqueComponent
+    EstoqueComponent,
+    GerenciadorDeEstoqueComponent
+
   ],
   imports: [
     BrowserModule,
