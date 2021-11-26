@@ -1,4 +1,16 @@
 <body onload="carregarTotalEstoque('totalEstoque')">
+
+    <!--Carrinho de compras-->
+    <div class="carrinho">
+        <img src="https://i.imgur.com/zvjF37u.png">
+        <p>Itens no estoque: <span id="totalEstoque">0</span></p>
+    </div>
+    
+    <!--Formulário: Nome, código e quantidade de produtos-->
+    <form>
+        <table>
+            <caption>Cadastro de novos produtos</caption>
+
     
     <!--Carrinho de compras-->
     <div class="estoque">
@@ -13,6 +25,7 @@
         
         <table>
             <caption>CADASTRO DE NOVOS PRODUTOS</caption>
+
             <!--Nome do produto-->
             <tr>
                 <td class="alinharRotulos" >Nome do produto:</td>
@@ -24,7 +37,7 @@
                 <td><input id="txtCodProduto" type="text"></td>
             </tr>
             <!--Quantidade do produto-->
-            
+
             <tr>
                 <td class="alinharRotulos">Quantidade do produto:</td>
                 <td>
@@ -46,15 +59,20 @@
             <tr>
                 <td colspan="2" align="center">
                     <input type="button" value="Cadastrar" class="alinhaBtns" onclick="validarProduto('txtNomeProduto','txtCodProduto','qtidadeProduto')">
+
+                    <input type="button" value="Ver estoque" class="alinhaBtns" onclick="window.open('ver-estoque.component.html','_self')">
+                    <input type="reset" value="Limpar" class="alinhaBtns">
+
                     <input type="button" value="Ver estoque" class="alinhaBtns" onclick="listarEstoque()" >
                     <input type="reset" value="Limpar" class="alinhaBtns">
-                    
+
                 </td>
             </tr>
         </table>
     </form>
     
 </body>
+
 
 
 
