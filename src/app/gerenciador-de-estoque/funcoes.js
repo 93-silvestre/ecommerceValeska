@@ -1,14 +1,4 @@
-<!doctype html>
-<html lang="pt-br">
-<head>
-  <meta charset="utf-8">
-  <title>Ecommerce Valeska</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <script src="./app/gerenciador-de-estoque/funcoes.js"></script>
-  <script>
-    //-----------------------------------------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------------
 // Função: validarProduto(idNomeProduto, idCodProduto, idQtidadeProduto)
 // Verifica se foram informados o nome e o código do produto
 // Parâmetros:
@@ -106,10 +96,3 @@ function listarEstoque() {
     } 
     else alert("A versão do seu navegador é muito antiga. Por isso, não será possível visualizar o estoque!");    
 }
-  </script>
-</head>
-<body>
-  <app-root></app-root>
-</body>
-
-</html>
